@@ -48,7 +48,6 @@ body {
 .ganesh_mantra {
     font-family: 'Nunito', sans-serif;
     text-align: center;
-    margin: 80px 100px;
     padding: 32px 0;
     font-size: 36px;
     background-color: #F1F1F1;
@@ -98,7 +97,7 @@ body {
 .event_info {
     width: 50%;
     text-align: center;
-    margin: 50px auto;
+    margin: 75px auto;
 }
 .event_info p:first-child {
     margin: 0;
@@ -108,6 +107,7 @@ body {
 .event_info p:nth-child(2) {
     font-size: 28px;
     font-family: 'Mukta', sans-serif;
+    margin: 0;
 }
 .event_info p:nth-child(3) {
     font-size: 26px;
@@ -195,7 +195,6 @@ body {
         border: 5px solid peachpuff;
     }
     .ganesh_mantra {
-        margin: 40px 0px;
         font-size: 24px;
     }
     .generic_hr {
@@ -232,8 +231,11 @@ body {
     .event_image {
         height: 200px;
     }
+    .event_image img {
+        object-fit: cover;
+    }
     .event_info {
-        margin: 26px auto;
+        margin: 45px auto;
     }
     .invite_quote {
         margin: 0;
